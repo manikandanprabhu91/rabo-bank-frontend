@@ -11,21 +11,21 @@ export class AppComponent implements OnInit {
   tableShow:boolean=false;
   successShow:boolean=false;
   uploadFile:any
-  responseData:any
+  responseData:any=[]
+  filePathName:any;
   constructor(private FileUploadServiceService:FileUploadServiceService){}
   ngOnInit(){
-
   }
   fileUpload(file:any){
     const target: DataTransfer = <DataTransfer>(file.target);
     this.uploadFile = target.files[0];
-    console.log(file);
+    if(file.target.files[0]!=undefined){
+      this.filePathName=file.target.files[0].name;
+    }
   }
   fileSubmit(){
    this.FileUploadServiceService.uploadFile(this.uploadFile).subscribe((data:any)=>{
-     
 	 this.responseData=data.reboResponse;
-	 //console.log(this.responseData)
 	 if(this.responseData.length > 0) {
        this.tableShow=true
 	 } else {

@@ -6,7 +6,7 @@ var hostName = location.hostname;
 var protocol = location.protocol;
 
 if(hostName == "localhost"){
-    hostName = "localhost:9080";
+    hostName = "localhost:8090";
     protocol = "http:";
 
 }

@@ -1,3 +1,54 @@
 .fileInput{
-    padding: 35px 35px 35px 35px;
+    padding: 35px 0px 35px 10px;
+}
+.table{
+    background: #eee;
+    color:white;
+    border: 1px solid gray;
+
+    font-family: 'myriad-pro',Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 14px;
+    line-height: 1.571;
+    color: #333;
+    
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 0;
+    color:#003399;
+    background: #eee;
+    border-bottom: 1px solid #333;
+    
+
+}
+.table tbody td{
+    color:#333;
+    border-bottom: 1px solid #333;
+}
+.section-widget{
+    padding: 7px !important;
+    background: #eee;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+.file-upload{
+    background: #003399;
+    color:white;
+    border-color: #003399;
+    box-shadow: none;
+    font-family: 'myriad-pro',Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 14px;
+}
+
+.file-name{
+    font-family: 'myriad-pro',Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 14px;
+
+}
+.message{
+    height: 45px;
+    width: 100%;
+    font-family: 'myriad-pro',Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 14px;
 }

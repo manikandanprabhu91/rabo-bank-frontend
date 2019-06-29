@@ -1,6 +1,3 @@
-
-//export const serverUrl="http://localhost:9080/api/repo/assignment/v1/auth/csv-file-upload";
-
 'use strict'
 var hostName = location.hostname;
 var protocol = location.protocol;

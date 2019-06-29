@@ -39,6 +39,7 @@
     box-shadow: none;
     font-family: 'myriad-pro',Verdana,Arial,Helvetica,sans-serif !important;
     font-size: 14px;
+    height: 35px;
 }
 
 .file-name{
@@ -51,4 +52,12 @@
     width: 100%;
     font-family: 'myriad-pro',Verdana,Arial,Helvetica,sans-serif !important;
     font-size: 14px;
+}
+
+.right-nav{
+    margin-left: 800px
+}
+.header{
+    height: 70px;
+    width: 100%;
 }

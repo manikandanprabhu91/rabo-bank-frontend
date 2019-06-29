@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
   uploadFile:any
   responseData:any=[]
   filePathName:any;
+  error:any
   constructor(private FileUploadServiceService:FileUploadServiceService){}
   ngOnInit(){
   }
@@ -31,7 +32,9 @@ export class AppComponent implements OnInit {
 	 } else {
 		 this.successShow = true
 	 }
-    })
+    },
+    error => this.error = error
+    )
     
   }
 }
